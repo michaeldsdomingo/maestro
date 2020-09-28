@@ -17,8 +17,8 @@ $ npm run start
 
 ```
 
-Use Postman to login, and Get, Add, Update, and Delete your contact lists. 
-IMPORTANT: Once you login, copy and paste the token into the headers with a key value pair of "x-access-token={token}"
+<h4>Use Postman to login, and Get, Add, Update, and Delete your contact lists.</h4> 
+<h5>IMPORTANT: Once you login, copy and paste the token into the headers with a key value pair of "x-access-token={token}"</h5>
 
 Description: Landing Page
 GET "http://localhost:3000"
