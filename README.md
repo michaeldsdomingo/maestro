@@ -25,6 +25,8 @@ $ npm run start
 <div>Response: "Welcome To Michael Domingo's App. Here you can log in to Get, Add, Update, and Delete Contacts"
 </div>
 
+<br>
+
 <div>Description: Login</div>
 <div>POST "http://localhost:3000/auth/login"</div>
 <div>Response: {isSuccessful: true, token: encrypted-token-string}</div>
