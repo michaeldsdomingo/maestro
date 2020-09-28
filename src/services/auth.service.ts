@@ -11,10 +11,10 @@ export class AuthService {
         const token = jwt.sign({username}, 'supersecret', {
             expiresIn: 86400000
         });
-        resolve({test: 'logged in', token: token});
+        resolve({isSuccessful: true, token: token});
       }
       else {
-        reject({error: 'Failed'});
+        reject({error: 'Unable to login'});
       }
     }
     
